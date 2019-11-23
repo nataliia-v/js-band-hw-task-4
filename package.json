@@ -1,0 +1,31 @@
+{
+  "name": "js-band-hw-task-4",
+  "version": "1.0.0",
+  "description": "Ciklum University: JS Band Internship. Homework task 4",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --ext js src",
+    "eslint-fix": "eslint --fix --ext js src",
+    "commit": "npx git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliia-v/js-band-hw-task-4.git"
+  },
+  "author": "Nataliia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliia-v/js-band-hw-task-4/issues"
+  },
+  "homepage": "https://github.com/nataliia-v/js-band-hw-task-4#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
