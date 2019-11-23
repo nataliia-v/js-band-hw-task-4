@@ -1,2 +1,3 @@
-const a = 2;
-const b = 3;
+import sum from './test/sum';
+
+console.log(sum(1, 2));
