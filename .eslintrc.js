@@ -1,9 +1,12 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "amd": true,
+        "node": true,
+        "es6": true,
+        "jest/globals": true
     },
-    "extends": "eslint:recommended",
+    "extends":["plugin:jest/recommended", "eslint:recommended"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -12,6 +15,12 @@ module.exports = {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
+    "plugins": ["jest"],
     "rules": {
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
     }
 };
