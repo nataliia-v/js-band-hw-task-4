@@ -1,3 +1,3 @@
 import sum from './test/sum';
 
-console.log('sum', sum(1, 2));
+console.log('sum', sum(1, 3));
