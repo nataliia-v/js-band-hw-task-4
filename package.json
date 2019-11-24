@@ -45,15 +45,6 @@
     "webpack-livereload-plugin": "^2.2.0",
     "webpack-merge": "^4.2.2"
   },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-      "pre-commit": [
-        "npm run test",
-        "npm run eslint"
-      ]
-    }
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
